@@ -14,7 +14,7 @@ const CallRejectedDialog = ({ reason, dispatch }) => {
         })
       );
     }, [4000]);
-  }, []);
+  }, [dispatch]);
 
   return (
     <div className='call_rejected_dialog background_secondary_color'>
