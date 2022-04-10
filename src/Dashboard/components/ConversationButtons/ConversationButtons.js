@@ -18,10 +18,8 @@ import {
 } from '../../../utils/webRTC/webRTCHandler';
 
 import {
-  callStates,
   setLocalCameraEnabled,
   setLocalMicrophoneEnabled,
-  setMessage,
 } from '../../../store/actions/callActions';
 
 const styles = {

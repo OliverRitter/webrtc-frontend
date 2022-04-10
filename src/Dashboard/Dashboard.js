@@ -7,8 +7,8 @@ import DirectCall from './components/DirectCall/DirectCall';
 import { useSelector } from 'react-redux';
 import DashboardInformation from './components/DashboardInformation/DashboardInformation';
 import { callStates } from '../store/actions/callActions';
-import GroupCallRoomsList from './components/GroupCallRoomsList/GroupCallRoomsList';
-import GroupCall from './components/GroupCall/GroupCall';
+//import GroupCallRoomsList from './components/GroupCallRoomsList/GroupCallRoomsList';
+//import GroupCall from './components/GroupCall/GroupCall';
 // import axios from 'axios';
 // import { setTurnServers } from '../utils/webRTC/TURN';
 
