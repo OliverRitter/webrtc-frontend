@@ -2,20 +2,21 @@ import React, { useRef, useEffect } from 'react';
 
 const styles = {
   videoContainer: {
-    width: '150px',
-    height: '150px',
-    borderRadius: '8px',
+    width: '350px',
+    height: '350px',
+    borderRadius: '12px',
     position: 'absolute',
-    top: '5%',
-    right: '23%'
+    top: '2%',
+    right: '20%',
+    overflow: 'hidden',
   },
   videoElement: {
     width: '100%',
-    height: '100%'
-  }
+    height: '100%',
+  },
 };
 
-const LocalVideoView = props => {
+const LocalVideoView = (props) => {
   const { localStream } = props;
   const localVideoRef = useRef();
 
