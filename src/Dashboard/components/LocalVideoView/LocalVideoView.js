@@ -2,10 +2,10 @@ import React, { useRef, useEffect } from 'react';
 
 const styles = {
   videoContainer: {
-    width: '350px',
-    height: '350px',
+    width: '200px',
+    height: '200px',
     borderRadius: '12px',
-    position: 'absolute',
+    position: 'fixed',
     top: '2%',
     right: '20%',
     overflow: 'hidden',

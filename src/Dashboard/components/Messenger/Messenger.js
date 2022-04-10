@@ -8,7 +8,7 @@ const Messenger = ({ message, setDirectCallMessage }) => {
   const [inputValue, setInputValue] = useState('');
 
   const handleOnKeyDownEvent = (e) => {
-    if (e.code === 'Enter') {
+    if (e.keyCode === 13) {
       sendMessageUsingDataChannel(inputValue);
       setInputValue('');
     }
